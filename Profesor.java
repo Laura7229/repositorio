@@ -18,8 +18,10 @@ public class Profesor extends Persona {
     public void setDespacho(int despacho) {
         this.despacho = despacho;
     }
+    
     @Override
     public String toString() {
-        return super.toString();
+        return "Profesor [despacho=" + despacho + ", " + super.toString() + "]";
     }
 }
+
