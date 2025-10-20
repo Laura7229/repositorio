@@ -4,9 +4,6 @@ public class Persona {
     private String NIF;
     private Direccion direccion;
 
-   
-    
-
     public Persona() {
         this.NIF = "";
         this.apellidos = "";
@@ -20,8 +17,6 @@ public class Persona {
         this.direccion = direccion;
         this.nombre = nombre;
     }
-
-
 
     public String getNombre() {
         return nombre;
@@ -55,4 +50,8 @@ public class Persona {
         this.direccion = direccion;
     }
 
+    @Override
+    public String toString() {
+        return "Persona [nombre=" + nombre + ", apellidos=" + apellidos + ", NIF=" + NIF + ", direccion=" + direccion + "]";
+    }
 }
