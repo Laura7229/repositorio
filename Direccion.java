@@ -17,5 +17,42 @@ public class Direccion {
         this.pais = "españa";
     }
 
+    // Getters
+    public String getCalle() {
+        return calle;
+    }
 
+    public String getCiudad() {
+        return ciudad;
+    }
+
+    public int getCodigo_postal() {
+        return codigo_postal;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    // Setters
+    public void setCalle(String calle) {
+        this.calle = calle;
+    }
+
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
+    }
+
+    public void setCodigo_postal(int codigo_postal) {
+        this.codigo_postal = codigo_postal;
+    }
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+    @Override
+    public String toString() {
+        return "Direccion [calle=" + calle + ", ciudad=" + ciudad + ", codigo_postal=" + codigo_postal + ", pais=" + pais + "]";
+    }
 }
