@@ -1,7 +1,6 @@
 public class Estudiante extends Persona{
     private int ID_estudiante;
 
-
     public Estudiante(){
         super();
         this.ID_estudiante=0;
@@ -18,11 +17,10 @@ public class Estudiante extends Persona{
     public void setID_estudiante(int ID_estudiante) {
         this.ID_estudiante = ID_estudiante;
     }
+    
     @Override
     public String toString() {
-
-        return super.toString();
+        return "Estudiante [ID_estudiante=" + ID_estudiante + ", " + super.toString() + "]";
     }
-
-
 }
+
